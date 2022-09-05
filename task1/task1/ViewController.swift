@@ -4,8 +4,8 @@ class ViewController: UIViewController {
     
     private var counter: Int = 0
 
-    @IBOutlet private var counterLabel: UILabel!
-    @IBOutlet private var counterButton: UIButton!
+    @IBOutlet private weak var counterLabel: UILabel!
+    @IBOutlet private weak var counterButton: UIButton!
    
     override func viewDidLoad() {
         super.viewDidLoad()
